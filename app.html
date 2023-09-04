@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App</title>
+    <link href="css/style2.css" rel="stylesheet"/>
+    <link href="css/normalize.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Work+Sans:ital,wght@0,400;0,700;0,800;1,200;1,600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="settings-box">
+        <div class="toggle">
+            <i class="fa fa-gear"></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>Colors:</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#ff9800"></li>
+                    <li  data-color="#666"></li>
+                    <li  data-color="blueviolet"></li>
+                    <li  data-color="aqua"></li>
+                    <li  data-color="aquamarine "></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random background:</h4>
+                <div class="random-background">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Showe Bullets:</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display="show">Yes</span>
+                    <span class="no" data-display="hide">No</span>
+                </div>
+            </div>
+            <button class="reset-options">Reset Options</button>
+        </div>
+    </div>
+
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip">Our Skills</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip">Our Features</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+        <div class="bullet" data-section=".contact">
+            <div class="tooltip">Contact Us</div>
+        </div>
+    </div>
+    
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">
+                    <img src="https://www.creativefabrica.com/wp-content/uploads/2021/04/04/U-logo-design-for-software-app-company-Graphics-10358679-1-1-580x387.jpg" alt="">
+                    Soft<span>Care</span>
+                    </div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#"  class="active" data-section=".about-us">About</a></li>
+                        <li><a href="#" data-section=".skills">Skills</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".timeline">Timeline</a></li>
+                        <li><a href="#" data-section=".features">Features</a></li>
+                        <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+                        <li><a href="#" data-section=".contact">Contact Us</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="introduction-text">
+            <h1>We are <span>Programming</span> company</h1>
+            <p>Welcome to our company</p>
+        </div>
+    </div>
+   
+    <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>We are group of developers , Our emphasis is on offering a high degree of product user friendliness through a positive, creative and focused company staff. </p>
+            </div>
+            <div class="img-box">
+                <img src="https://img.freepik.com/free-vector/gradient-surrealist-galaxy-illustration_52683-117885.jpg?t=st=1693224739~exp=1693225339~hmac=a1d9d911f8a30ed75b27766de46959c0759bde8e68239d5c7b1f4d152f37af49" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <div class="skills">
+        <div class="container">
+           <h2>Our Skills</h2>
+           <div class="skill-box">
+            <div class="skill-name">Html</div>
+            <div class="skill-progress">
+                <span data-progress="100%"></span>
+            </div>
+           </div> 
+           <div class="skill-box">
+            <div class="skill-name">Css</div>
+            <div class="skill-progress">
+                <span data-progress="80%"></span>
+            </div>
+           </div> 
+           <div class="skill-box">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-progress">
+                <span data-progress="70%"></span>
+            </div>
+           </div> 
+           <div class="skill-box">
+            <div class="skill-name">Node.js</div>
+            <div class="skill-progress">
+                <span data-progress="80%"></span>
+            </div>
+           </div> 
+           <div class="skill-box">
+            <div class="skill-name">Express</div>
+            <div class="skill-progress">
+                <span data-progress="90%"></span>
+            </div>
+           </div> 
+           <div class="skill-box">
+            <div class="skill-name">MySQL</div>
+            <div class="skill-progress">
+                <span data-progress="80%"></span>
+            </div>
+           </div> 
+        </div>
+    </div>
+
+    <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="imgs-box">
+                <img src="https://img.freepik.com/free-photo/html-css-collage-concept_23-2150061955.jpg?t=st=1693308250~exp=1693308850~hmac=87aa808bbafab5faa62ade07af52fbd2c63677b19d1b7ee546edc07d151253b6" alt="image one">
+                <img src="https://img.freepik.com/free-photo/html-css-collage-concept-with-hacker_23-2150061984.jpg" alt="image two">
+                <img src="https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062006.jpg?t=st=1693299512~exp=1693300112~hmac=1d498c426e0ad492c1d1916e05a9c20c193dc4afa24ed7ca93d938531bb65f9f" alt="image three">
+                <img src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?t=st=1693308477~exp=1693309077~hmac=585616d5b49e8c6d13ef85571c651d87a9d36e8f1c7be4535d95c8c7eeb765b6" alt="image four">
+                <img src="https://img.freepik.com/free-photo/html-system-website-concept_23-2150376770.jpg?t=st=1693308516~exp=1693309116~hmac=e76efa076c14ee8f95aa20d77a128bf50877608d0b96cb0552bfdbbe17d8ad72" alt="image five">
+                <img src="https://img.freepik.com/premium-vector/software-program-development-laptop-pcr_73903-133.jpg" alt="image six">
+                <img src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?t=st=1693308599~exp=1693309199~hmac=3580aef84b60379620dd30563e0625f4464ce7f0edb320c7f3705d0c938e5c3e" alt="image seven">
+                <img src="https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?t=st=1693308647~exp=1693309247~hmac=a698ec0b42f0165fadf79fcfbd1e7406ae01eecdaa3f42c0134fcc24c483ee11" alt="image eight">
+                <img src="https://img.freepik.com/free-vector/desktop-smartphone-app-development_23-2148683810.jpg?t=st=1693308679~exp=1693309279~hmac=4d044f2c0c1f1883c090968f3ecbb150954b2ad4c0a30ea60f6f4fbe0a0c98c1" alt="image nine">
+                <img src="https://img.freepik.com/free-photo/artificial-intelligence-system-using-complex-language-code-deep-learning-neural-network-programming-model-solving-operations-using-massive-computational-power-3d-render-animation_482257-66217.jpg?t=st=1693308717~exp=1693309317~hmac=b8488214d28f95622146adff68056b14e686c94e2c5f572b4a82cec9ed65ccda" alt="image ten">
+            </div>
+        </div>
+    </div>
+
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2018</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Our beginning</h3>
+                        <p>We start our small company</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>First customer</h3>
+                        <p>We work together on the website to show all we have</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2019</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Customers increased</h3>
+                        <p>Our company has become famous</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>We become one of the most famous companies</h3>
+                        <p>Our name become famous globaly</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="feat-box">
+                <img src="https://chisellabs.com/glossary/wp-content/uploads/2021/06/feature-driven-development.png" alt="">
+                <h4>Development</h4>
+                <p>We are professional developers, Contact us</p>
+            </div>
+            <div class="feat-box">
+                <img src="https://img.freepik.com/free-photo/html-css-collage-concept-with-hacker_23-2150061984.jpg" alt="">
+                <h4>Leadership</h4>
+                <p>We are group of developers , each one of us know his role</p>
+            </div>
+            <div class="feat-box">
+                <img src="https://img.freepik.com/premium-vector/software-program-development-laptop-pcr_73903-133.jpg" alt="">
+                <h4>Experience</h4>
+                <p>We have a great experience in developing</p>
+            </div>
+            <div class="feat-box">
+                <img src="https://img.freepik.com/free-vector/desktop-smartphone-app-development_23-2148683810.jpg?t=st=1693308679~exp=1693309279~hmac=4d044f2c0c1f1883c090968f3ecbb150954b2ad4c0a30ea60f6f4fbe0a0c98c1" alt="">
+                <h4>Fast design iterations</h4>
+                <p>We are professional in designing</p>
+            </div>
+            <div class="feat-box">
+                <img src="https://img.freepik.com/free-photo/html-system-website-concept_23-2150376770.jpg?t=st=1693308516~exp=1693309116~hmac=e76efa076c14ee8f95aa20d77a128bf50877608d0b96cb0552bfdbbe17d8ad72" alt="">
+                <h4>Communication</h4>
+                <p>Great communication skills</p>
+            </div>
+            <div class="feat-box">
+                <img src="https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?t=st=1693308647~exp=1693309247~hmac=a698ec0b42f0165fadf79fcfbd1e7406ae01eecdaa3f42c0134fcc24c483ee11" alt="">
+                <h4>Always have well-defined project objectives</h4>
+                <p>We always have well-defined project objectives</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <div class="container">
+            <h2>Testimonials:</h2>
+            <div class="tes-box">
+                <p>Amazing work!!</p>
+                <div class="person-info">
+                    <img src="http://placehold.it/80/DDD" alt="">
+                    <h4>Mohammad akar</h4>
+                    <p>CEO at company</p>
+                </div>
+            </div>
+            <div class="tes-box">
+                <p>What a company!</p>
+                <div class="person-info">
+                    <img src="http://placehold.it/80/EEE" alt="">
+                    <h4>Samir ali</h4>
+                    <p>CEO at company</p>
+                </div>
+            </div>
+            <div class="tes-box">
+                <p>Great but it needs some modifications</p>
+                <div class="person-info">
+                    <img src="http://placehold.it/80/AAA" alt="">
+                    <h4>Jad asmar</h4>
+                    <p>CEO at company</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Your Name" name="username">
+                    <input type="text" placeholder="Your Phone" name="phone">
+                    <input type="email" placeholder="Your Email" name="email">
+                    <input type="text" placeholder="Subject" name="subject">
+
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Your message"></textarea>
+                    <input type="submit" value="send">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">Created by Mohammad Akar</div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
